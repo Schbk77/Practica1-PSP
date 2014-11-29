@@ -22,7 +22,7 @@
         android:layout_alignBottom="@+id/imageView"
         android:layout_toRightOf="@+id/imageView"
         android:layout_toEndOf="@+id/imageView"
-        android:hint="URL Imagen" />
+        android:hint="@string/hint_url" />
 
     <EditText
         android:layout_width="fill_parent"
@@ -31,13 +31,13 @@
         android:layout_below="@+id/etUrl"
         android:layout_alignLeft="@+id/etUrl"
         android:layout_alignStart="@+id/etUrl"
-        android:hint="Guardar como..." />
+        android:hint="@string/hint_nombre" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Guardar en:"
+        android:text="@string/guardaren"
         android:id="@+id/textView"
         android:layout_below="@+id/etNombre"
         android:layout_alignLeft="@+id/etNombre"
@@ -54,14 +54,14 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Memoria externa privada"
+            android:text="@string/mepriv"
             android:id="@+id/rbPrivada"
             android:checked="true" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Memoria externa pública"
+            android:text="@string/mepub"
             android:id="@+id/rbPublica"
             android:checked="false" />
     </RadioGroup>
@@ -69,18 +69,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Descargar imagen"
+        android:text="@string/bt_descargar"
         android:id="@+id/button"
         android:layout_below="@+id/radioGroup"
         android:layout_centerHorizontal="true"
         android:onClick="guardarImagen"/>
-
-    <!-- <ProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/progressBar"
-        android:layout_below="@+id/radioGroup"
-        android:layout_alignLeft="@+id/textView"/> -->
 
     <ImageView
         android:layout_width="fill_parent"
@@ -90,7 +83,5 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:scaleType="centerInside" />
-
-
 
 </RelativeLayout>

@@ -2,7 +2,18 @@
 <resources>
 
     <string name="app_name">GuardarImagen</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="error_imagen">Error al mostrar la imagen</string>
+    <string name="error_url">Debe especificar una URL válida</string>
+    <string name="error_destino">Tipo de imagen no soportado</string>
+    <string name="png">.png</string>
+    <string name="jpg">.jpg</string>
+    <string name="gif">.gif</string>
+
+    <string name="hint_url">URL Imagen</string>
+    <string name="hint_nombre">Guardar como...</string>
+    <string name="guardaren">Guardar en:</string>
+    <string name="mepriv">Memoria externa privada</string>
+    <string name="mepub">Memoria externa pública</string>
+    <string name="bt_descargar">Descargar imagen</string>
 
 </resources>
